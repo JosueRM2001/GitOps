@@ -27,8 +27,8 @@ jobs:
       with:
         context: .
         push: true
-        tags: erickjrm/gitops:latest  # Cambiado a tu nombre de usuario y nombre de imagen
+        tags: erickjrm/programgitops:latest  # Cambiado a tu nombre de usuario y nombre de imagen
 
     - name: Deploy Docker container to EC2 (or local)
       run: |
-        docker run -d -p 8080:80 erickjrm/gitops:latest  # Cambiado a tu nombre de usuario y nombre de imagen
+        docker run -d -p 8080:80 erickjrm/programgitops:latest  # Cambiado a tu nombre de usuario y nombre de imagen
