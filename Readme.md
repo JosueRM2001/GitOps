@@ -47,16 +47,19 @@ https://github.com/JosueRM2001/GitOps.git
 Get the latest image from Docker Hub:
 ```bash
 docker pull erickjrm/programops:latest
-
+```
 3. **Get the latest Docker image:**:
 
 Start the application in a Docker container:
 ```bash
 docker run -d -p 8080:80 --name gitops erickjrm/programops:latest
 ```
+
 4. **Access the application:**:
 
 Open the web browser or Use tools like Postman to navigate to:
 ```bash
 http://localhost:8080
 ```
+![Captura de pantalla 2024-12-15 223142](https://github.com/user-attachments/assets/a9a8f391-2bea-4ded-85ac-2236242ba372)
+
